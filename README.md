@@ -8,6 +8,10 @@ During a round, users can place a bet by guessing if the price of Bitcoin will b
 
 Live demo: [link]
 
+## Concept idea
+
+![](docs/app-preview.png)
+
 ## API
 
 External data source: [Binance Websocket Market Streams](https://binance-docs.github.io/apidocs/spot/en/#websocket-market-streams) 
@@ -21,6 +25,8 @@ Update speed: 1000ms
 
 
 ## Data Flow
+
+...
 
 ## Features
 
