@@ -1,0 +1,62 @@
+{
+  "name": "real-time-web",
+  "version": "0.0.1",
+  "description": "Real Time Web application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "release": "standard-version",
+    "storybook": "start-storybook -p 6006 -s ./public",
+    "build-storybook": "build-storybook -c .storybook -s ./public -o build",
+    "lint": "eslint .",
+    "new-component": "node scripts/generate-component.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/gv-minorweb/real-time-web-2021#readme",
+  "dependencies": {
+    "next": "^9.5.1",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sass": "^1.26.10",
+    "socket.io-client": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@storybook/addon-a11y": "^6.0.5",
+    "@storybook/addon-actions": "^6.0.5",
+    "@storybook/addon-backgrounds": "^6.0.5",
+    "@storybook/addon-viewport": "^6.0.5",
+    "@storybook/addons": "^6.0.5",
+    "@storybook/preset-scss": "^1.0.2",
+    "@storybook/react": "^6.0.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.1.1",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "prettier-eslint": "^11.0.0",
+    "prettier-eslint-cli": "^5.0.0",
+    "prettier-stylelint": "^0.4.2",
+    "sass-loader": "^9.0.2",
+    "sass-resources-loader": "^2.0.3",
+    "standard-version": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "stylelint": "^13.6.1",
+    "stylelint-8-point-grid": "^1.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}

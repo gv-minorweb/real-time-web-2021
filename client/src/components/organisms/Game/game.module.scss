@@ -1,0 +1,100 @@
+
+.game {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  margin: auto;
+  background-color: var(--gray-800);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: calc(1200px - 320px);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: var(--gray-700);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-900);
+  height: 46px;
+  padding: 10px 24px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 24px;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.price {
+  text-align: center;
+  flex: 1 50%;
+}
+
+.game-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  margin-top: auto;
+
+  .button {
+    flex: 1;
+  }
+}
+
+.rounds {
+  position: relative;
+  display: flex;
+  margin-top: auto;
+  background-color: var(--gray-900);
+  padding: 10px 24px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: linear-gradient(to left, var(--gray-900), rgba(var(--gray-900-rgb), 0))
+  }
+
+  > p {
+    flex-shrink: 0;
+  }
+}
+
+.rounds-list {
+  display: flex;
+  margin-left: 24px;
+  overflow: hidden;
+}
+
+.rounds-list-item {
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+}
+
+.userlist {
+  li {
+    line-height: 1.5
+  }
+}

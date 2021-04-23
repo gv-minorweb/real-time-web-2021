@@ -1,0 +1,52 @@
+%heading {
+  font-weight: 700;
+  color: var(--seeds-900);
+}
+
+%paragraph {
+  font-weight: 400;
+  font-feature-settings: 'ss04' on;
+  color: var(--seeds-900);
+}
+
+@mixin h1 {
+  @extend %heading;
+  font-size: var(--heading-1-size);
+  line-height: var(--heading-1-line-height);
+  letter-spacing: var(--heading-1-letter-spacing);
+}
+
+@mixin h2 {
+  @extend %heading;
+  font-size: var(--heading-2-size);
+  line-height: var(--heading-2-line-height);
+  letter-spacing: var(--heading-2-letter-spacing);
+}
+
+@mixin h3 {
+  @extend %heading;
+  font-size: var(--heading-3-size);
+  line-height: var(--heading-3-line-height);
+  letter-spacing: var(--heading-3-letter-spacing);
+}
+
+@mixin h4 {
+  @extend %heading;
+  font-size: var(--heading-4-size);
+  line-height: var(--heading-4-line-height);
+  letter-spacing: var(--heading-4-letter-spacing);
+}
+
+@mixin h5 {
+  @extend %heading;
+  font-size: var(--heading-5-size);
+  line-height: var(--heading-5-line-height);
+  letter-spacing: var(--heading-5-letter-spacing);
+}
+
+@mixin h6 {
+  @extend %heading;
+  font-size: var(--heading-6-size);
+  line-height: var(--heading-6-line-height);
+  letter-spacing: var(--heading-6-letter-spacing);
+}

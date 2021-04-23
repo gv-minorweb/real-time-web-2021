@@ -1,0 +1,44 @@
+@function to-rgb($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
+$colors: (
+  // Grays
+  --gray-50: #FAFAFA,
+  --gray-100: #F4F4F5,
+  --gray-200: #E4E4E7,
+  --gray-300: #D4D4D8,
+  --gray-400: #A1A1AA,
+  --gray-500: #71717A,
+  --gray-600: #52525B,
+  --gray-700: #3F3F46,
+  --gray-800: #27272A,
+  --gray-900: #18181B,
+
+  // Misc
+  --white: #fff,
+  --black: #000,
+
+  --primary: #6b6bff,
+  --positive: #02C076,
+  --negative: #F84960
+  );
+
+:root {
+  // Colors
+  @each $var, $color in $colors {
+    #{$var}: #{$color};
+    #{$var}-rgb: #{to-rgb($color)};
+  }
+
+  /*
+  USAGE:
+
+  Regular:
+  `color: var(--primary),`
+
+  With opacity:
+  `color: rgba(var(--primary), 0.15),`
+
+  */
+}

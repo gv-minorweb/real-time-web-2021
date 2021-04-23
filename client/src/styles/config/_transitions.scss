@@ -1,0 +1,8 @@
+:root {
+  --ease: ease-in-out;
+  --circ-in-out: cubic-bezier(.785, .135, .15, .86);
+  --slide: cubic-bezier(.19, .82, .84, 1.06);
+  --fast-transition: 100ms;
+  --regular-transition: 200ms;
+  --slow-transition: 400ms;
+}

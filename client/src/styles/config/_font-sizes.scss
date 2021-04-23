@@ -1,0 +1,56 @@
+:root {
+  --font-stack-base:
+    -apple-system,
+    'BlinkMacSystemFont',
+    'Helvetica',
+    'Lato',
+    'Arial',
+    'Segoe UI',
+    'Verdana',
+    sans-serif;
+
+  // Headings
+  --heading-1-size: 60px;
+  --heading-1-line-height: 72px;
+  --heading-1-letter-spacing: 0;
+
+  // h2
+  --heading-2-size: 44px;
+  --heading-2-line-height: 56px;
+  --heading-2-letter-spacing: 0;
+
+  // h3
+  --heading-3-size: 36px;
+  --heading-3-line-height: 44px;
+  --heading-3-letter-spacing: 0;
+
+  // h4
+  --heading-4-size: 28px;
+  --heading-4-line-height: 32px;
+  --heading-4-letter-spacing: 0;
+
+  // h5
+  --heading-5-size: 20px;
+  --heading-5-line-height: 28px;
+  --heading-5-letter-spacing: 0;
+
+  // h6
+  --heading-6-size: 16px;
+  --heading-6-line-height: 24px;
+  --heading-6-letter-spacing: 0;
+
+  // body
+  --body-lg-size: 20px;
+  --body-lg-line-height: 28px;
+  --body-lg-letter-spacing: 0;
+
+  // body-md
+  --body-md-size: 16px;
+  --body-md-line-height: 24px;
+  --body-md-letter-spacing: 0;
+
+  // body-sm
+  --body-sm-size: 14px;
+  --body-sm-line-height: 20px;
+  --body-sm-letter-spacing: 0;
+}
